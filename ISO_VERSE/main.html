@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISO_VERSE</title>
+     
+<style>
+    body {
+        background: linear-gradient(135deg, #050f65 60%, #2d056e 90%);
+        color: #FFFFFF;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-size: 400% 400%;
+        animation: gradientAnimation 15s ease infinite;
+    }
+
+    @keyframes gradientAnimation {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+    .header {
+        background-color: #0c1b91;
+        
+        padding: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+
+        backdrop-filter: blur(20px);
+        border-radius: 20px 20px 0px 0px;
+
+    }
+    .imgLogo {
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        margin: 0;
+        font-size: 2.5em;
+    }
+
+    .navigation {
+        background-color: #0c1b91;
+        padding: 10px 0;
+        margin-left: 20px;
+        margin-right: 20px;
+        backdrop-filter: blur(20px);
+        border-radius: 0px 0px 20px 20px;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        
+    }
+
+
+    
+    .nav_link {
+        color: #FFFFFF;
+        text-decoration: none;
+        margin: 0 15px;
+        padding: 10px 20px;
+        display: inline-block;
+        transition: background-color 0.3s, border-radius 0.3s;
+    }
+    
+    .nav_link:hover {
+        background-color: #1a2b8f;
+        border-radius: 10px;
+    }
+    .prof:hover {
+        background-color: #1a2b8f;
+        border-radius: 40px;
+    }
+   
+    #get_link {
+        text-align: center;
+        margin: 20px;
+        padding: 30px;
+        border: rgba(109, 198, 222, 0.5) solid 1px;
+        border-radius: 20px ;
+        backdrop-filter: blur(20px);
+        background-color: rgba(109, 198, 222, 0.5);
+        transition: background-color 0.5s, border-radius 0.5s;
+    }
+    
+    #get_link:hover{
+        border-radius: 0px 40px 0px 40px ;
+        background-color: #808dd7;
+    }
+    .prof {
+        display: inline-block;
+        margin: 0 10px;
+        border:#6974e9 solid 1px;
+        background-color: rgba(61, 96, 173, 0.5);
+        border-radius: 10px;
+        padding: 10px 20px;
+        text-align: center;
+        margin: 0 15px;
+        transition: background-color 0.5s, border-radius 0.5s;
+    }
+
+    .profile {
+        color: #FFFFFF;
+        text-decoration: none;
+        padding: 10px 20px;
+        display: inline-block;
+    }
+
+    </style>
+
+</head>
+
+<body>
+    <header class = "header">
+        <div class="logo">
+            <img src="https://yt3.googleusercontent.com/TfXxfmRGKo6rmAMOrg0OeTziySd3BIx44XG7GcMASmFrmS-fOki5eclR2r7JgfUjNDUkPseVKrQ=s160-c-k-c0x00ffffff-no-rj" alt="ISO_VERSE Logo" class="imgLogo" width="100" height="100">
+        <h1>ISO_VERSE</h1>
+        </div>
+        <p>Welcome to the ISO_VERSE! This is my personal website where you can roam through my projects and journey through my experiences.</p>
+    </header>
+
+    <nav class="navigation">
+        <ul>
+            <li><a href="index.html" class="nav_link">Home</a></li>
+            <li><a href="projects.html" class="nav_link">Projects</a></li>
+            <li><a href="about.html" class="nav_link">About</a></li>
+            <li><a href="contact.html" class="nav_link">Contact</a></li>
+        </ul>
+
+    </nav>
+    <div id="get_link">
+        <ul>
+        <li class="prof">
+            <img src="https://img.icons8.com/?size=100&id=12599&format=png&color=000000" alt="">
+            <a href="https://github.com/kumarishan0825" class="profile" >GitHub</a></li>
+        <li class="prof">
+            <img src="https://img.icons8.com/?size=100&id=32309&format=png&color=000000" alt="">
+            <a href="https://instagram.com/isovoir?igsh=OWwwZXR3OTg2a3l0" class="profile" >Instagram</a></li>
+        <li class="prof">
+            <img src="https://img.icons8.com/?size=100&id=37326&format=png&color=000000" alt="">
+            <a href="https://www.youtube.com/@IsoVoir" class="profile" >YouTube</a></li>
+          
+        </ul>
+    </div>
+
+
+    </body>
+    </html>
