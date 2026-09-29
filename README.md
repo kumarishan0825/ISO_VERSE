@@ -3,7 +3,7 @@
 A clean, responsive personal website built to showcase my profile, skills, projects, and original blog writing. This project has been fully refactored into a professional product-ready structure.
 
 ## 📂 Project Structure
-* `ISO_VERSE/main.html` - The core website layout and structure.
+* `ISO_VERSE/index.html` - The core website layout and structure.
 * `ISO_VERSE/style.css` - Custom styling, color grading, and navigation animations.
 * `ISO_VERSE/script.js` - Dynamic frontend behavior and interactivity.
 
