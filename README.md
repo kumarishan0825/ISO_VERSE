@@ -1,24 +1,22 @@
-# Personal Portfolio Website
+# My Personal Portfolio Site
 
-A clean, responsive personal website built to showcase my profile, skills, projects, and original blog writing. This project has been fully refactored into a professional product-ready structure.
+Hey there! This is a personal website I built to host my projects, bio, and blog posts. Everything is organized inside the `ISO_VERSE` folder and deployed live on GitHub Pages.
 
-## 📂 Project Structure
-* `ISO_VERSE/index.html` - The core website layout and structure.
-* `ISO_VERSE/style.css` - Custom styling, color grading, and navigation animations.
-* `ISO_VERSE/script.js` - Dynamic frontend behavior and interactivity.
+## 📂 How The Code is Set Up
+All the production code is sitting inside the `ISO_VERSE/` directory:
+* `ISO_VERSE/index.html` - handles the structure of the site.
+* `ISO_VERSE/style.css` - contains the design setup, custom layout rules, and navigation animations.
+* `ISO_VERSE/script.js` - handles the interactive parts.
 
-## ⚒️ Features & Built with
-* Semantic **HTML5** structure.
-* Custom **CSS3** layout and transitions (No heavy frameworks).
-* Pure **JavaScript** for client-side logic.
-* Fully deployed using **GitHub Pages**.
+I also added a standard MIT license to the project.
 
-## 🧠 AI Usage Disclosure
-For this project, **all core HTML structure, content, and the blog section were written entirely by me from scratch.** My step-by-step progress, trial-and-error, and original code can be tracked directly through my frequent GitHub commit history.
+## 🧠 How I Worked on This (and AI disclosure)
+I originally started this project by coding everything into one giant HTML file. It was a bit messy, but I got the text, layout, and blog selections written from scratch via learning from the YouTube first(This design and layout is purely made by me). My Git commit history shows the step-by-step process of how I  built the initial prototype myself
 
-I utilized AI strictly as a **development and debugging tool** after my initial build was already complete. Specifically, I used AI to audit my website for visual improvements and layout errors. It suggested around 10 visual refinements, which I implemented to fix specific issues, including:
-* Polishing the **color grading and contrast** for better readability.
-* Debugging and refining the **navigation bar alignment**.
-* Writing the custom CSS properties for the **navigation animations**.
+After I had the functioning prototype, I used an AI tool as a second set of eyes to audit my layout and find errors. It pointed out about 10 small visual bugs. Based on its suggestions, I did a big refractor where I split the code into separate HTML, CSS, and JS files. I also used the tool to help me find out the specific CSS properties needed to make my navigation bar animations slide smoothly and clean up the color contrast grading.
 
-The AI acted entirely as a virtual code reviewer and mentor to help me polish my own work, rather than generating the website for me.
+The core logic, writing, and structure are completely my own-I just used the tool like a code reviewer to help me debug and add layout polish.
+
+## How to Test It Live
+Since the homepage files is inside a folder, you can test the live deployment by opening the GitHub Pages link and putting `/ISO_VERSE/` at the very end of the URL:
+👉 https://kumarishan0825.github.io/ISO_VERSE/ISO_VERSE/
