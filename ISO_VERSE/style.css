@@ -21,6 +21,9 @@
             background-position: 30% 50%;
         }
     }
+.logo{
+    border-radius = 50%;
+}
 
     .header {
         background-color: rgba(42, 43, 49, 0.7);
