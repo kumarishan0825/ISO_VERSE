@@ -21,9 +21,6 @@
             background-position: 30% 50%;
         }
     }
-.logo{
-    border-radius: 50%;
-}
 
     .header {
         background-color: rgba(42, 43, 49, 0.7);
@@ -90,7 +87,7 @@
         background-color: #adc1d1;
         border-radius: 40px;
     }
-   
+    
     #get_link {
         text-align: center;
         margin: 5px;
@@ -173,6 +170,7 @@
             gap: 48px;
         }
         .showcard:hover{
+            transform: translateY(-4px);
             box-shadow: 0 24px 50px rgba(0, 0, 0, 0.4);
             border-color: rgba(23, 42, 38, 0.5);
         }
@@ -257,5 +255,41 @@
         .headpic{
             margin-top: 46px;
             margin: 50px;
+
+        }
+        .logoimg{
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .sitefooter{
+            padding: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            background-color: #2f2f36;
+
+        }
+        .footerinner{
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .footernote .foote {
+             border: 1px solid rgba(255, 255, 255, 0.08);
+             background-color: #2f2f36;
+             padding: 10px 10px;
+             margin: 0px 10px;
+             border-radius: 10px;
+             transition: background-color 0.3s ease;
+            }
+
+            .foote{
+            text-decoration: none;
+            color: #ffffff;
+
 
         }
