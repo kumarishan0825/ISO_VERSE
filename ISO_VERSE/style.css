@@ -31,13 +31,13 @@
         
         top: 0;
         z-index: 1000;
-
+        
         padding: 40px;
         margin-left: 20px;
         margin-right: 20px;
         margin-top: 20px;
-
-
+        
+        
         border-radius: 20px 20px 0px 0px;
 
     }
@@ -93,15 +93,38 @@
         margin: 5px;
         padding: 10px;
     }
-    .prof {
-        display: inline-block;
-        margin: 0px 10px;
-        border: 1px solid rgba(255, 255, 255, 0.08);
+    #get_link_inner{
         background-color: #2f2f36;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+            padding: 10px;
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+            
+        border-radius: 20px;
+
+            top: 0;
+            z-index: 1000;
+
+    }
+    .prof {
+        margin: 0px 5px;
+        padding: 5px;
+        display: inline-block;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        background-color: #6b6b79;
         border-radius: 10px;
-        padding: 10px 10px;
         text-align: center;
         transition: background-color 0.5s, border-radius 0.5s;
+    }
+    .proftext {
+        margin-left: 64px;
+        display: inline-block;
     }
 
     .profile {
@@ -257,12 +280,8 @@
             margin: 50px;
 
         }
-        .logoimg{
-            border-radius: 50%;
-            margin-bottom: 20px;
-        }
         .sitefooter{
-            padding: 30px;
+            padding: 20px;
             border: 1px solid rgba(255, 255, 255, 0.08);
             background-color: #2f2f36;
 
@@ -271,14 +290,13 @@
             max-width: 1200px;
             margin: 0 auto;
             display: flex;
-            flex-direction: column;
             align-items: center;
-            justify-content: center;
-            gap: 10px;
+            justify-content: space-between;
+            gap: 24px;
             padding: 10px;
         }
 
-        .footernote .foote {
+          #emaillink{
              border: 1px solid rgba(255, 255, 255, 0.08);
              background-color: #2f2f36;
              padding: 10px 10px;
@@ -290,6 +308,24 @@
             .foote{
             text-decoration: none;
             color: #ffffff;
-
-
         }
+        .logolink {
+              color: #ffffff;
+             display: inline-flex; 
+             align-items: center;
+             gap: 10px;
+             text-decoration: none;
+             font: 800 1rem ; 
+            }
+            .logoimgf{
+             width: 30px; 
+             text-decoration: none;
+             aspect-ratio: 1; 
+             display: grid;
+             place-items: center; 
+             border-radius: 50%; 
+             font: 500 .78rem ; 
+            }
+          .logoimg{
+            border-radius: 50%;
+          }
